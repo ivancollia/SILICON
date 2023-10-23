@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.flex-conteiner{
+    background-color: chartreuse;
+    display: flex;
+    flex-direction: column-reverse;
+    border: 5px solid red;
+    justify-content: start;
+    align-self: center;
+    padding: 10px;
+}
+.sh{
+    flex-shrink: 5;
+}
+.as{
+    align-self: center;
+}
+.grid-conteiner{
+    background-color: aqua;
+    display: grid;
+    grid-template-rows: 100px 100px 100px;
+    grid-template-columns: 100px 100px 100px;
+    border: 5px solid red;
+    grid-gap: 30%; 
+    height: 500px;
+}
+img{
+    width: 150px;
+    height: 150px;
+    border
+}
